@@ -120,30 +120,7 @@ public class GetData{
         System.err.println(err.getMessage());
     }
 		
-		
-//	// This is an example usage of JSONArray and JSONObject
-//	// The array contains a list of objects
-//	// All user information should be stored in the JSONArray object: users_info
-//	// You will need to DELETE this stuff. This is just an example.
-//
-//	// A JSONObject is an unordered collection of name/value pairs. Add a few name/value pairs.
-//	JSONObject test = new JSONObject();	// declare a new JSONObject
-//	// A JSONArray consists of multiple JSONObjects. 
-//	JSONArray users_info = new JSONArray();
-//
-//	test.put("user_id", "testid");		// populate the JSONObject
-//	test.put("first_name", "testname");
-//
-//	JSONObject test2 = new JSONObject();
-//	test2.put("user_id", "test2id");
-//	test2.put("first_name", "test2name");
-//
-//	// users_info.add(test);			// add the JSONObject to JSONArray	
-//	// users_info.add(test2);			// add the JSONObject to JSONArray	
-//
-//	// Use put method if using the alternate JSON modules.
-//	users_info.put(test);		// add the JSONObject to JSONArray     
-//	users_info.put(test2);		// add the JSONObject to JSONArray	
+
 	return users_info;
     }
 
